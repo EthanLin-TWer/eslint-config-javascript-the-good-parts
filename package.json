@@ -30,6 +30,9 @@
     "url": "https://github.com/linesh-simplicity/eslint-config-javascript-the-good-parts/issues"
   },
   "homepage": "https://github.com/linesh-simplicity/eslint-config-javascript-the-good-parts#readme",
+  "dependencies": {
+    "eslint-plugin-import": "^2.14.0"
+  },
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
@@ -39,14 +42,12 @@
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-config-prettier": "^3.1.0",
-    "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-prettier": "^3.0.0",
     "iconv-lite": "^0.4.17",
     "mocha": "^3.4.2",
     "prettier": "^1.14.3"
   },
   "peerDependencies": {
-    "eslint": ">= 3",
-    "eslint-plugin-import": "^2.14.0"
+    "eslint": ">= 3"
   }
 }
