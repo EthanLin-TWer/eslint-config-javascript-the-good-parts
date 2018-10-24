@@ -95,8 +95,6 @@ module.exports = {
     camelcase: "off",
     "new-cap": "off",
     "no-underscore-dangle": "off",
-
-    // intended to ignore
-    "no-prototype-builtins": "off", // too strict
+    "no-prototype-builtins": "off",
   },
 }
