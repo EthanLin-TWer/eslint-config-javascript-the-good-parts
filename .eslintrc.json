@@ -2,7 +2,11 @@
   "extends": "airbnb-base",
   "plugins": ["prettier"],
   "rules": {
+    "prettier/prettier": "error",
     "semi": "off",
-    "prettier/prettier": "error"
+    "quotes": "off",
+    "max-len": "off",
+    "comma-dangle": "off",
+    "arrow-parens": "off"
   }
 }
