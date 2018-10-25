@@ -7,7 +7,10 @@ module.exports = {
     // variables
     "one-var": "never",
     "no-var": "error",
+    "no-label-var": "error",
     "no-undef": "error",
+    "no-shadow": "error",
+    "no-undefined": "error",
     "no-unused-vars": "error",
     "no-multi-assign": "error",
     "no-plusplus": "error",
@@ -34,6 +37,7 @@ module.exports = {
 
     // string templates
     "prefer-template": "error",
+    "no-useless-concat": "error",
     "template-curly-spacing": "error",
 
     // functions
@@ -43,6 +47,7 @@ module.exports = {
     "prefer-rest-params": "error",
     "arrow-body-style": "error",
     "func-style": "error",
+    "no-useless-call": "error",
 
     // class
     "no-useless-constructor": "error",
@@ -69,7 +74,11 @@ module.exports = {
 
     // misc
     eqeqeq: "error",
+    yoda: "error",
+    "no-void": "error",
+    "no-with": "error",
     "no-eval": "error",
+    "no-sequences": "error",
     "no-useless-escape": "error",
     "no-unneeded-ternary": "off",
 
