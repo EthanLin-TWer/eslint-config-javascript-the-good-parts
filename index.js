@@ -122,7 +122,6 @@ module.exports = {
     "no-implicit-globals": "error",
     "no-unneeded-ternary": "error",
     "no-console": "warning",
-    "no-native-reassign": "off", // deprecated in favor of no-global-assign
 
     // basic prettier options
     semi: "off",
