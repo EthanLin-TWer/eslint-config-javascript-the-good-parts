@@ -42,6 +42,7 @@ module.exports = {
     "prefer-spread": "error",
     "prefer-rest-params": "error",
     "arrow-body-style": "error",
+    "func-style": "error",
 
     // class
     "no-useless-constructor": "error",
@@ -64,6 +65,7 @@ module.exports = {
 
     // blocks
     "no-else-return": "error",
+    "no-continue": "error",
 
     // misc
     eqeqeq: "error",
@@ -88,11 +90,15 @@ module.exports = {
     "no-nested-ternary": "off",
     "no-mixed-operators": "off",
     "brace-style": "off",
-    "space-before-function-paren": "off", // prettier is opinionated on this to not have a space before function paren. Stick to prettier to save your life on styling
+    "space-before-blocks": "off",
+    // prettier is opinionated on this about having or not spaces before&after functions.
+    // Stick to prettier to save your life on styling. It's not that bad.
+    "space-before-function-paren": "off",
+    "func-call-spacing": "off",
 
     // still validating...
-    "implicit-arrow-linebreak": "off",
     camelcase: "off",
+    "implicit-arrow-linebreak": "off",
     "new-cap": "off",
     "no-underscore-dangle": "off",
     "no-prototype-builtins": "off",
