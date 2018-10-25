@@ -7,13 +7,15 @@ module.exports = {
     // variables
     "one-var": "never",
     "no-var": "error",
-    "no-label-var": "error",
     "no-undef": "error",
     "no-shadow": "error",
+    "no-plusplus": "error",
+    "no-label-var": "error",
+    "no-redeclare": "error",
     "no-undefined": "error",
     "no-unused-vars": "error",
     "no-multi-assign": "error",
-    "no-plusplus": "error",
+    "no-use-before-define": "error",
 
     // references
     "prefer-const": "error",
@@ -48,11 +50,17 @@ module.exports = {
     "arrow-body-style": "error",
     "func-style": "error",
     "no-useless-call": "error",
+    "consistent-return": "error",
+    "no-extra-bind": "error",
+    "no-invalid-this": "error",
 
     // class
     "no-useless-constructor": "error",
     "no-dupe-class-members": "error",
     "no-class-assign": "error",
+    "no-this-before-super": "error",
+    "new-parens": "error",
+    "enforce-methods-use-this": "error",
 
     // module
     "no-duplicate-imports": "error",
@@ -67,10 +75,35 @@ module.exports = {
 
     // comments
     "spaced-comment": "error",
+    "no-inline-comments": "off",
 
     // blocks
     "no-else-return": "error",
     "no-continue": "error",
+    "default-case": "error",
+    "no-unreachable": "error",
+
+    // types
+    "valid-typeof": "error",
+
+    // programming styles
+    "max-lines": [
+      "off",
+      {
+        max: 300,
+        skipBlankLines: true,
+        skipComments: true,
+      },
+    ],
+    "max-lines-per-function": [
+      "off",
+      {
+        max: 50,
+        skipBlankLines: true,
+        skipComments: true,
+        IIFEs: true,
+      },
+    ],
 
     // misc
     eqeqeq: "error",
@@ -78,9 +111,17 @@ module.exports = {
     "no-void": "error",
     "no-with": "error",
     "no-eval": "error",
+    "no-caller": "error",
     "no-sequences": "error",
+    "no-cond-assign": "error",
+    "no-empty-return": "error",
+    "no-implied-eval": "error",
+    "no-global-assign": "error",
     "no-useless-escape": "error",
-    "no-unneeded-ternary": "off",
+    "no-implicit-globals": "error",
+    "no-unneeded-ternary": "error",
+    "no-console": "warning",
+    "no-native-reassign": "off", // deprecated in favor of no-global-assign
 
     // basic prettier options
     semi: "off",
@@ -90,16 +131,30 @@ module.exports = {
     "arrow-parens": "off",
 
     // prettier will handle this perfectly
-    "quote-props": "off",
+    curly: "off",
     "wrap-iife": "off",
-    "function-paren-newline": "off",
-    "prefer-arrow-callback": "off",
+    "quote-props": "off",
+    "brace-style": "off",
+    "key-spacing": "off",
     "arrow-spacing": "off",
+    "comma-spacing": "off",
+    "space-infix-ops": "off",
+    "no-multi-spaces": "off",
+    "keyword-spacing": "off",
+    "no-trailing-spaces": "off",
+    "yield-star-spacing": "off",
+    "rest-spread-spacing": "off",
+    "switch-colon-spacing": "off",
+    "array-bracket-spacing": "off",
     "generator-star-spacing": "off",
+    "computed-property-spacing": "off",
     "no-nested-ternary": "off",
     "no-mixed-operators": "off",
-    "brace-style": "off",
     "space-before-blocks": "off",
+    "prefer-arrow-callback": "off",
+    "array-bracket-newline": "off",
+    "array-element-newline": "off",
+    "function-paren-newline": "off",
     // prettier is opinionated on this about having or not spaces before&after functions.
     // Stick to prettier to save your life on styling. It's not that bad.
     "space-before-function-paren": "off",
@@ -107,6 +162,7 @@ module.exports = {
 
     // still validating...
     camelcase: "off",
+    "no-extend-native": "off",
     "implicit-arrow-linebreak": "off",
     "new-cap": "off",
     "no-underscore-dangle": "off",
