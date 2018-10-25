@@ -56,6 +56,7 @@ module.exports = {
 
     // class
     "no-useless-constructor": "error",
+    "lines-between-class-members": "error",
     "no-dupe-class-members": "error",
     "no-class-assign": "error",
     "no-this-before-super": "error",
