@@ -61,7 +61,7 @@ module.exports = {
     "no-class-assign": "error",
     "no-this-before-super": "error",
     "new-parens": "error",
-    "enforce-methods-use-this": "error",
+    "class-methods-use-this": "error",
 
     // module
     "no-duplicate-imports": "error",
@@ -112,10 +112,10 @@ module.exports = {
     "no-void": "error",
     "no-with": "error",
     "no-eval": "error",
+    "no-empty": "error",
     "no-caller": "error",
     "no-sequences": "error",
     "no-cond-assign": "error",
-    "no-empty-return": "error",
     "no-implied-eval": "error",
     "no-global-assign": "error",
     "no-useless-escape": "error",
