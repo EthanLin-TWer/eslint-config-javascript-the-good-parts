@@ -47,7 +47,7 @@ module.exports = {
     "no-param-reassign": "error",
     "prefer-spread": "error",
     "prefer-rest-params": "error",
-    "arrow-body-style": "error",
+    "arrow-body-style": "warn", // this has been not very flexible
     // off for now for not playing well with generator functions
     "func-style": "off",
     "no-useless-call": "error",
