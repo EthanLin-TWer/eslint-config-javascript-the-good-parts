@@ -61,7 +61,12 @@ module.exports = {
     "no-class-assign": "error",
     "no-this-before-super": "error",
     "new-parens": "error",
-    "class-methods-use-this": "error",
+    "class-methods-use-this": [
+      "error",
+      {
+        exceptMethods: ["render"],
+      },
+    ],
 
     // module
     "no-duplicate-imports": "error",
