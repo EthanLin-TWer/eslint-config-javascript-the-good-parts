@@ -5,7 +5,7 @@ module.exports = {
   plugins: ["import"],
   rules: {
     // variables
-    "one-var": "never",
+    "one-var": ["error", "never"],
     "no-var": "error",
     "no-undef": "error",
     "no-shadow": "error",
