@@ -48,7 +48,8 @@ module.exports = {
     "prefer-spread": "error",
     "prefer-rest-params": "error",
     "arrow-body-style": "error",
-    "func-style": "error",
+    // off for now for not playing well with generator functions
+    "func-style": "off",
     "no-useless-call": "error",
     "consistent-return": "error",
     "no-extra-bind": "error",
