@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-javascript-the-good-parts",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "Best JavaScript practices rules along with JavaScript: The Good Parts book",
   "main": "index.js",
   "scripts": {
