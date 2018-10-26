@@ -121,7 +121,7 @@ module.exports = {
     "no-useless-escape": "error",
     "no-implicit-globals": "error",
     "no-unneeded-ternary": "error",
-    "no-console": "warning",
+    "no-console": "warn",
 
     // basic prettier options
     semi: "off",
